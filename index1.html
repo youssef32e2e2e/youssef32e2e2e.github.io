@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valentine's Day Proposal</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/@tsparticles/engine@3.1.0/+esm"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tsparticles/all@3.1.0/+esm"></script>
+</head>
+<body>
+
+<div id="particles-js"></div>
+
+<div class="container">
+    <div id="question-container" class="content">
+        <img id="us-pic" src="C:\Users\youssef adel\Downloads\youssef_habiba.png" alt="Us Pic">
+        <h2>Do you love Youssef Ahmed Adel?</h2>
+        <button onclick="handleAnswer('yes')">Yes</button>
+        <button onclick="handleAnswer('happy')">OMG, yes I love him so much!</button>
+    </div>
+
+    <div id="color-question" class="content">
+        <h2>What's Youssef's favorite color?</h2>
+        <button onclick="handleColorAnswer('blue')">Blue</button>
+        <button onclick="handleColorAnswer('black')">Black</button>
+        <button onclick="handleColorAnswer('fo7lo2y')">Fo7lo2y</button>
+    </div>
+
+    <div id="life-question" class="content">
+        <h2>Are you ready to live the rest of your life with Youssef?</h2>
+        <button onclick="handleAnswer('yes')">Yes</button>
+        <button onclick="handleAnswer('sad')">No</button>
+    </div>
+
+    <div id="valentine-question" class="content">
+        <h2>Will you be my valentine?</h2>
+        <button onclick="startFireworks('omg-yes')">OMG, yes</button>
+        <button onclick="handleAnswer('sad')">Hell no</button>
+    </div>
+
+    <div id="fireworks-container"></div>
+
+    <div id="final-message" class="content">
+        <h1>BA7EBK</h1>
+        <p>Congratulations! Youssef wants to be your valentine.</p>
+    </div>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
